@@ -1,0 +1,85 @@
+Javascript anotações:
+
+Funções
+
+function funcao(){
+console.log('isso é uma funcao')
+}
+
+funcoes sao trechos de codigos que podem ser invocados para ser usados em outros momentos
+
+Objetos
+
+const x = {
+chave: valor
+nome: 'jonathan'
+idade: 30
+}
+
+x.nome, x.idade... etec...
+
+Objetos = colecao dinamica de chaves (Um objeto e suas caracteristicas) 
+funções dentro do objeto sao chamados de metodos(ações) usando as 'caracteristicas' com THIS
+ex. this.nome this.algo
+
+pode ter funções demtro dos objetos.
+
+Classes
+
+Classe pessoa, uma instancia dessa classe sou eu, jonathan. 
+classe é como um objeto deve ser, se comportar...
+classe animal, 
+
+métodos construtores sao ativados sempre que uma nova instancia é criada.
+
+
+Coerção dinâmica de dados(conversão forçada de tipo de dados), os tipos sao convertidos no javascript para tentar executar as ações. As variáveis nao sao declaradas com um tipo específico. 
+
+comparação de valores == somente o valor === valor e tipo
+
+Null = representa ausencia de valor
+const x = null; variavel existe e tem valor nulo
+let y; = variavel nem existe, ausencia de declaração
+
+
+Hoisting move as definições não é exatamente procedual. Move as definições de variaveis para o topo.
+
+Prototipo - Prototype:
+
+É a forma de utilizar herança no javascript onde objetos herdam atri butos de outros.
+
+Conceito de closures:
+
+Muito usado no dia a dia, guarda o contexto que foi criado.  
+
+pode receber função como parametro:
+
+function somar(x,y){
+retorna x+y
+}
+function multiplicar(x,y){
+retorna x*y
+}
+function calcular(x,operacao, y){
+console.log(operacao(x,y))
+}
+calcular(x,somar,y)
+
+manipulação de arrays:
+
+assincronismo, quando a gente demora um tempo para executar
+funções assincronas quando a gente n tem controle de quando algo pedido será retornado. 
+
+no javascript é através do promise.
+async e await
+ 
+
+CARTÃO: 
+R$77.50 Jennifer Dente
+R$49,15 Sesi Maria
+R$126,65 - total
+
+
+
+
+
